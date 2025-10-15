@@ -1,0 +1,55 @@
+{
+	"name": "SafeBreach Mitre Results Layer",
+	"version": "4.5",
+	"domain": "mitre-enterprise",
+	"description": "MITRE heatmap - filtered view",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1090.003",
+			"tactic": "command-and-control",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 5
+		}
+	],
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
