@@ -1,0 +1,681 @@
+{
+	"name": "SafeBreach Mitre Results Layer",
+	"version": "4.5",
+	"domain": "mitre-enterprise",
+	"description": "MITRE heatmap - filtered view",
+	"filters": {
+		"stages": [
+			"act"
+		],
+		"platforms": [
+			"Windows",
+			"Linux",
+			"macOS"
+		]
+	},
+	"sorting": 0,
+	"viewMode": 0,
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1566",
+			"tactic": "initial-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 0%, Simulations: 28",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1566.001",
+			"tactic": "initial-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 0%, Simulations: 28",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "initial-access",
+			"color": "rgba(255,165,2,0.55)",
+			"comment": "Not Blocked: 11%, Logged: 53%, Simulations: 19",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "initial-access",
+			"color": "rgba(255,165,2,0.6059322033898306)",
+			"comment": "Not Blocked: 17%, Logged: 42%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "initial-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "initial-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1059",
+			"tactic": "execution",
+			"color": "rgba(255,165,2,0.7550847457627119)",
+			"comment": "Not Blocked: 33%, Logged: 75%, Simulations: 234",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1059.003",
+			"tactic": "execution",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1059.001",
+			"tactic": "execution",
+			"color": "rgba(255,165,2,0.5686440677966101)",
+			"comment": "Not Blocked: 13%, Logged: 48%, Simulations: 23",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1106",
+			"tactic": "execution",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 51%, Simulations: 68",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1569",
+			"tactic": "execution",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 2",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1569.002",
+			"tactic": "execution",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 2",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "persistence",
+			"color": "rgba(255,165,2,0.55)",
+			"comment": "Not Blocked: 11%, Logged: 53%, Simulations: 19",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "persistence",
+			"color": "rgba(255,165,2,0.6059322033898306)",
+			"comment": "Not Blocked: 17%, Logged: 42%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "persistence",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "persistence",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "privilege-escalation",
+			"color": "rgba(255,165,2,0.55)",
+			"comment": "Not Blocked: 11%, Logged: 53%, Simulations: 19",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "privilege-escalation",
+			"color": "rgba(255,165,2,0.6059322033898306)",
+			"comment": "Not Blocked: 17%, Logged: 42%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "privilege-escalation",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "privilege-escalation",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1562",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 52%, Simulations: 44",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1562.001",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 52%, Simulations: 44",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1027",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 28%, Simulations: 43",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1027.001",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 28%, Simulations: 43",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1027.002",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 16%, Simulations: 32",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1036",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 16%, Simulations: 32",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1036.001",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 16%, Simulations: 32",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078",
+			"tactic": "defense-evasion",
+			"color": "rgba(255,165,2,0.55)",
+			"comment": "Not Blocked: 11%, Logged: 53%, Simulations: 19",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1078.001",
+			"tactic": "defense-evasion",
+			"color": "rgba(255,165,2,0.6059322033898306)",
+			"comment": "Not Blocked: 17%, Logged: 42%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.002",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1078.003",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1620",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 64%, Simulations: 11",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 50%, Simulations: 4",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1550.002",
+			"tactic": "defense-evasion",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 50%, Simulations: 4",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 1%, Logged: 24%, Simulations: 227",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1003.001",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 17%, Simulations: 199",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003.004",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 6%, Simulations: 138",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003.005",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 6%, Simulations: 138",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1003.006",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 16",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1552",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,0.7150000000000001)",
+			"comment": "Not Blocked: 7%, Logged: 18%, Simulations: 174",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1552.001",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 6%, Simulations: 140",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1552.002",
+			"tactic": "credential-access",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 24",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1552.006",
+			"tactic": "credential-access",
+			"color": "rgba(255,165,2,0.6805084745762713)",
+			"comment": "Not Blocked: 25%, Logged: 33%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1110",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1110.001",
+			"tactic": "credential-access",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1518",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7830508474576272)",
+			"comment": "Not Blocked: 36%, Logged: 79%, Simulations: 247",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1518.001",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7830508474576272)",
+			"comment": "Not Blocked: 36%, Logged: 79%, Simulations: 247",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1016",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1033",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1049",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1082",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1007",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 36",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1010",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 36",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1057",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 36",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1012",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 24",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1482",
+			"tactic": "discovery",
+			"color": "rgba(255,165,2,0.8389830508474577)",
+			"comment": "Not Blocked: 42%, Logged: 83%, Simulations: 12",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1087",
+			"tactic": "discovery",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 2",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1087.001",
+			"tactic": "discovery",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 2",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1534",
+			"tactic": "lateral-movement",
+			"color": "rgba(255,165,2,0.8855932203389831)",
+			"comment": "Not Blocked: 47%, Logged: 47%, Simulations: 17",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 3
+		},
+		{
+			"techniqueID": "T1021",
+			"tactic": "lateral-movement",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 78%, Simulations: 9",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1021.001",
+			"tactic": "lateral-movement",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 71%, Simulations: 7",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1021.002",
+			"tactic": "lateral-movement",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 100%, Simulations: 2",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1550",
+			"tactic": "lateral-movement",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 50%, Simulations: 4",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1550.002",
+			"tactic": "lateral-movement",
+			"color": "rgba(125,189,0,1)",
+			"comment": "Not Blocked: 0%, Logged: 50%, Simulations: 4",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1005",
+			"tactic": "collection",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1119",
+			"tactic": "collection",
+			"color": "rgba(255,165,2,0.7737288135593221)",
+			"comment": "Not Blocked: 35%, Logged: 78%, Simulations: 211",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 4
+		},
+		{
+			"techniqueID": "T1090",
+			"tactic": "command-and-control",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": true,
+			"metadata": [],
+			"mitreScore": 5
+		},
+		{
+			"techniqueID": "T1090.003",
+			"tactic": "command-and-control",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": []
+		},
+		{
+			"techniqueID": "T1048",
+			"tactic": "exfiltration",
+			"color": "rgba(125,189,0,0.8250000000000001)",
+			"comment": "Not Blocked: 5%, Logged: 5%, Simulations: 110",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [],
+			"mitreScore": 5
+		}
+	],
+	"legendItems": [],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true
+}
